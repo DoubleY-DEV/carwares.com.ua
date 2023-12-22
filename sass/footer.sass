@@ -1,0 +1,547 @@
+@import "app/sass/vars"
+
+.footer
+  background-color: #F9F9F9
+  &__desktop
+    display: block
+  &__device
+    display: none
+    position: relative
+    &::after
+      content: ''
+      display: block
+      z-index: 1
+      width: 50%
+      background-color: #4F4F4F
+      position: absolute
+      top: 0
+      bottom: 0
+      left: 0
+      height: 100%
+      box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08)
+    .container
+      position: relative
+      z-index: 2
+  &__top
+    padding-top: 30px
+    padding-bottom: 31px
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08)
+  &__bottom
+    background-color: #4F4F4F
+    padding: 7px 0
+
+.f-info
+  padding-top: 8px
+  &__logo
+    display: inline-block
+    text-decoration: none
+  &__img
+    display: block
+    width: 166px
+  &__addr
+    padding-top: 19px
+  &__item
+    display: block
+    width: 100%
+    font-weight: 400
+    font-size: 77.78%
+    padding-bottom: 11px
+    line-height: 120%
+    b
+      font-weight: 700
+    &:last-child
+      padding-bottom: 0
+
+.f-wrapper
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  flex-wrap: wrap
+  justify-content: space-between
+  align-items: flex-start
+
+.f-nav
+  font-size: 0
+  padding-bottom: 26px
+  width: 100%
+  padding-left: 50px
+  &__item
+    display: inline-block
+    padding-left: 39px
+    &:first-child
+      padding-left: 0
+  &__link
+    display: block
+    font-size: 16px
+    color: #333333
+    font-weight: 700
+    &:hover
+      text-decoration: underline
+
+.f-list
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  flex-wrap: wrap
+  justify-content: flex-start
+  align-items: flex-start
+  width: 70%
+  padding-left: 50px
+  &__list
+    width: 33%
+  &__item
+    padding-bottom: 10px
+    &:last-child
+      padding-bottom: 0
+  &__link
+    font-size: 88.89%
+    color: #333333
+    font-weight: 400
+    line-height: 130%
+    &:hover
+      text-decoration: underline
+
+.f-callback
+  max-width: 241px
+  min-width: 241px
+  width: 241px
+  &__description
+    font-weight: 500
+    font-size: 88.89%
+    line-height: 130%
+    padding-bottom: 19px
+  &__form
+    form
+      display: -webkit-box
+      display: -webkit-flex
+      display: -ms-flexbox
+      flex-wrap: nowrap
+      width: 100%
+      justify-content: space-between
+      align-items: center
+  &__input
+    height: 45px
+    width: auto
+    background-color: #ffffff
+    border: 1px solid #D9D9D9
+    border-right: none
+    border-radius: 6px 0 0 6px
+    padding: 0 13px
+    font-weight: 300
+    margin-left: 0
+    margin-right: -6px
+    color: #808080
+    font-size: 88.89%
+    font-family: "Lato", sans-serif
+    &::placeholder
+      opacity: 1
+      color: #808080
+  &__btn
+    height: 45px
+    width: 80px
+    text-align: center
+    color: #333333
+    font-weight: 700
+    border-radius: 6px
+    border: none
+    background-color: #F3E03B
+    cursor: pointer
+    font-size: 88.89%
+
+.f-copy
+  color: #ffffff
+  font-size: 88.89%
+  font-weight: 500
+
+.f-social
+  max-width: 241px
+  margin-left: auto
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  flex-wrap: nowrap
+  align-items: center
+  justify-content: flex-start
+  padding-left: 20px
+  &__item
+    display: block
+    padding-left: 16px
+    &:first-child
+      padding-left: 0
+  &__link
+    display: block
+    width: 16px
+    height: 16px
+    background-repeat: no-repeat
+    -webkit-background-size: contain
+    background-size: contain
+    background-position: center center
+
+.df-left
+  padding-top: 24px
+  padding-bottom: 24px
+  max-width: 116px
+  margin-left: auto
+  margin-right: auto
+  &__info
+    display: block
+    text-decoration: none
+    margin-bottom: 19px
+    font-weight: 400
+    color: #F9F9F9
+    font-size: 72.22%
+    line-height: 130%
+    b
+      font-weight: 700
+  &__social
+    padding-top: 41 - 19 + px
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: nowrap
+    align-items: center
+    justify-content: flex-start
+    width: 100%
+  &__item
+    display: block
+    padding-left: 13px
+    &:first-child
+      padding-left: 0
+  &__link
+    display: block
+    width: 26px
+    height: 26px
+    -webkit-background-size: contain
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: center center
+    text-decoration: none
+
+.df-right
+  padding-top: 24px
+  max-width: 116px
+  margin-left: auto
+  margin-right: auto
+  &__list
+    display: block
+    padding-bottom: 33px
+  &__item
+    display: block
+    width: 100%
+    padding-bottom: 10px
+    &:last-child
+      padding-bottom: 0
+  &__link
+    color: #333333
+    display: block
+    font-size: 72.22%
+    line-height: 120%
+    font-weight: 700
+  &__btn
+    display: block
+    width: 100%
+    height: 40px
+    line-height: 40px
+    color: #333333
+    font-size: 72.22%
+    background-color: #F3E03B
+    border-radius: 6px
+    -webkit-border-radius: 6px
+    text-align: center
+    font-weight: 700
+
+
+// Модалки
+.fancybox-content
+  background-color: transparent
+
+.modal0
+  width: 303px
+  padding: 0 !important
+  overflow: visible !important
+
+.m-info
+  background-color: #F3E03B
+  box-shadow: 5px 13px 21px rgba(0, 0, 0, 0.21)
+  border-radius: 10px
+  -webkit-border-radius: 10px
+  position: relative
+  padding-top: 56px
+  &__bg
+    position: absolute
+    width: 120px
+    height: 125px
+    background-repeat: no-repeat
+    -webkit-background-size: contain
+    background-size: contain
+    background-position: center center
+    z-index: 1
+    &-1
+      left: 42px
+      top: -16px
+    &-2
+      right: 70px
+      top: 32px
+  &__text
+    background-color: #ffffff
+    border-radius: 10px
+    -webkit-border-radius: 10px
+    position: relative
+    z-index: 2
+    padding: 16px 28px 31px
+  &__title
+    color: #333333
+    font-weight: 700
+    font-size: 111.11%
+    line-height: 130%
+    display: block
+    width: 100%
+  &__description
+    padding-top: 12px
+    font-size: 77.78%
+    color: #808080
+    display: block
+    width: 100%
+    padding-right: 30px
+    line-height: 130%
+
+.modal1
+  width: 100%
+  padding: 0 !important
+  background-color: #ffffff
+
+.m-order
+  padding-top: 33px
+  padding-bottom: 29px
+  .h-basket__row
+    font-size: 72.22%
+    height: 42px
+  &__title
+    display: block
+    width: 100%
+    text-align: center
+    padding: 0 15px 15px
+    font-weight: 700
+    color: #333333
+    font-size: 88.89%
+  &__wrapper
+    padding-bottom: 15px
+  &__price
+    font-size: 88.89%
+    text-align: center
+    font-weight: 400
+    color: #898888
+    line-height: 19px
+    background-color: #F8F8F8
+    backdrop-filter: blur(13px)
+    padding-top: 10px
+    padding-bottom: 13px
+  &__services
+    b
+      color: #333333
+      font-weight: 500
+      display: inline-block
+      margin-right: 10px
+  &__sum
+    padding-left: 25px
+    b
+      color: #333333
+      font-weight: 500
+      display: inline-block
+      margin-left: 2px
+  &__bottom
+    padding-top: 14px
+    .h-outfit__btn
+      display: block
+      width: 100%
+      max-width: 204px
+      min-width: 204px
+      margin-left: auto
+      margin-right: auto
+      border-radius: 2px
+      -webkit-border-radius: 2px
+      font-size: 72.22%
+      font-weight: 700
+    .h-outfit__icon
+
+.modal2
+  width: 100%
+  padding: 0 !important
+  background-color: #ffffff
+
+.m-logo
+  display: inline-block
+  &__img
+    display: block
+    width: 100%
+    height: auto
+
+.m-nav
+  padding-left: 14px
+  padding-right: 14px
+  &__top
+    text-align: center
+    width: 100%
+    position: relative
+    padding-top: 24px
+
+  .h-lang
+    display: block
+    position: absolute
+    left: 0
+    top: 9px
+    padding-left: 0
+    &__item
+      display: block
+    &__link
+      padding: 0
+      width: 35px
+      height: 35px
+      border: 1px solid transparent
+      line-height: 33px
+      text-align: center
+      display: block
+      border-radius: 50%
+      -webkit-border-radius: 50%
+      color: #898888
+      font-size: 66.67%
+      &-active
+        border: 1px solid #D9D9D9
+        text-decoration: underline
+  &__cat
+    display: block
+    width: 100%
+    text-align: center
+    padding-top: 26px
+    padding-bottom: 29px
+  &__catitem
+    padding-left: 2px
+    padding-right: 2px
+    display: inline-block
+  &__catlink
+    width: 114px
+    display: block
+    height: 35px
+    line-height: 33px
+    border: 2px solid #F3E03B
+    text-align: center
+    border-radius: 5px
+    -webkit-border-radius: 5px
+    font-weight: 500
+    color: #424242
+    font-size: 88.89%
+    &-active
+      background-color: #F3E03B
+  &__menu
+    padding-left: 0
+    padding-right: 0
+    padding-bottom: 21px
+    width: auto
+    margin-left: -14px
+    margin-right: -14px
+  &__item
+    display: block
+    width: 100%
+    padding-left: 0
+    padding-right: 0
+  &__link
+    display: block
+    width: 100%
+    position: relative
+    line-height: 22px
+    font-size: 88.89%
+    padding: 6px 15px 6px 21 + 24 + 20 + px
+    color: #333333
+    font-weight: 400
+    border-left: 4px solid transparent
+    &-submenu
+      &::after
+        content: ''
+        display: block
+        width: 6px
+        height: 9px
+        background-image: url(../img/icons/angle-right-black.svg)
+        -webkit-background-size: contain
+        background-size: contain
+        background-position: center center
+        position: absolute
+        right: 44px
+        top: 12px
+    &-active
+      font-weight: 700
+      border-left: 4px solid #F3E03B
+      background-color: #F8F8F8
+      &::after
+        transform: rotate(90deg)
+        -webkit-transform: rotate(90deg)
+  &__icon
+    width: 24px
+    height: 24px
+    display: block
+    background-repeat: no-repeat
+    background-position: center center
+    position: absolute
+    left: 20px
+    top: 5px
+  &__sublist
+    padding: 5px 70px 5px 70px
+  &__subitem
+    display: block
+    width: 100%
+  &__sublink
+    padding: 5px 0 5px 33px
+    color: #333333
+    display: block
+    font-weight: 400
+    font-size: 72.22%
+    position: relative
+    &-noicon
+      padding-left: 0
+  &__subicon
+    height: 16px
+    width: 23px
+    display: block
+    position: absolute
+    left: 0
+    top: 7px
+    background-repeat: no-repeat
+    background-position: left center
+    -webkit-background-size: contain
+    background-size: contain
+
+  .h-phone
+    margin-right: 0
+    padding-left: 14px
+    padding-right: 30px
+    &__icon
+      width: 19px
+      height: 19px
+      margin-top: -9.5px
+    &__current
+      padding-left: 42px
+      &::after
+        content: ""
+        display: block
+        width: 6px
+        height: 9px
+        background-image: url(../img/icons/angle-right-black.svg)
+        -webkit-background-size: contain
+        background-size: contain
+        background-position: center center
+        position: absolute
+        right: 0
+        top: 9px
+        transform: rotate(0deg)
+        -webkit-transform: rotate(0deg)
+  &__bottom
+    padding: 28px 27 - 14 + px 23px
+    form
+      display: -webkit-box
+      display: -webkit-flex
+      display: -ms-flexbox
+      justify-content: space-between
+      align-items: center
+      width: 100%
+    .h-phone__input
+      padding-left: 23px
+      padding-right: 23px

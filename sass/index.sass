@@ -1,0 +1,2745 @@
+@import "app/sass/vars"
+
+.section
+  position: relative
+  z-index: 1
+  &-gray
+    background-color: #F8F8F8
+
+.section-1
+  padding-top: 0
+  padding-bottom: 0
+  position: relative
+  &__bg
+    width: 45.5%
+    position: absolute
+    right: 0
+    top: 0
+    bottom: 0
+    -webkit-background-size: cover
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center center
+    border-radius: 0px 0px 0px 319px
+    -webkit-border-radius: 0px 0px 0px 319px
+    z-index: 1
+  .container
+
+  .row
+    width: 100%
+  &__container
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: wrap
+    align-items: flex-end
+
+
+.s1-info
+  display: block
+  width: 50%
+  padding-top: 33px
+  &__info
+    display: block
+    width: 100%
+    line-height: 31px
+    font-size: 100%
+    color: #808080
+    font-weight: 400
+  &__wrapper
+    display: block
+    width: 100%
+    padding-bottom: 30px
+  &__title
+    font-size: 483.33%
+    font-weight: bold
+    color: #333333
+    line-height: 134.69%
+    display: block
+    width: 100%
+  &__subtitle
+    display: block
+    width: 100%
+    padding-top: 4px
+    font-size: 183.33%
+    color: #333333
+    font-weight: 500
+    line-height: 125.5%
+
+.s1-record
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  flex-wrap: wrap
+  justify-content: space-between
+  align-items: flex-start
+  background-color: #424242
+  width: auto
+  margin-left: -22px
+  margin-right: -22px
+  &__left
+    width: 50%
+    padding: 23px 69px 18px 43px
+    height: 100%
+  &__title
+    color: #ffffff
+    display: block
+  &__description
+    color: #ffffff
+    display: block
+    padding-top: 7px
+  &__right
+    width: 50%
+    background-color: #F3E03B
+    height: 100%
+    padding: 29px 32px 34px 38px
+  &__form
+    form
+      display: -webkit-box
+      display: -webkit-flex
+      display: -ms-flexbox
+      flex-wrap: nowrap
+      justify-content: space-between
+      align-items: center
+
+  &__input
+    display: block
+    height: 50px
+    border: 2px solid #808080
+    border-radius: 6px
+    -webkit-border-radius: 6px
+    width: 100%
+    background-color: transparent
+    padding: 0 26px
+    font-size: 100%
+    font-weight: 400
+    color: #808080
+    &::placeholder
+      opacity: 1
+      color: #808080
+  &__btn
+    margin-left: 26px
+  &__info
+    display: block
+    width: 100%
+    padding-top: 8px
+    font-size: 88.89%
+    color: #333333
+    font-weight: 400
+    a
+      font-weight: 700
+      border-bottom: 1px solid #333333
+
+.section-2
+  padding-top: 100px
+  padding-bottom: 100px
+
+.s2-top
+  text-align: center
+  &__title
+    display: block
+  &__description
+    display: block
+    padding-top: 29px
+    max-width: 574px
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+
+.s2-advantage
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  flex-wrap: nowrap
+  justify-content: space-between
+  align-items: flex-start
+  padding-top: 72px
+  position: relative
+  &__item
+    display: block
+    position: relative
+    &:nth-child(2)
+      width: 20%
+    &:nth-child(3)
+      width: 25%
+    &:nth-child(4)
+      width: 25%
+    &:nth-child(5)
+      width: 20%
+  &__wrapper
+    text-align: center
+  &__icon
+    width: 70px
+    height: 70px
+    display: block
+    background-color: #F3E03B
+    border-radius: 50%
+    -webkit-border-radius: 50%
+    background-repeat: no-repeat
+    -webkit-background-size: 50px auto
+    background-size: 50px auto
+    background-position: center center
+    margin-left: auto
+    margin-right: auto
+  &__title
+    padding-top: 4px
+    display: block
+    width: 100%
+    position: relative
+    font-size: 100%
+    font-weight: 700
+    color: #333333
+    &::after
+      content: ''
+      display: block
+      width: 76px
+      height: 3px
+      background-color: #F3E03B
+      position: absolute
+      bottom: -7px
+      left: 0
+      right: 0
+      margin-left: auto
+      margin-right: auto
+  &__description
+    padding-top: 21px
+    display: block
+    width: 100%
+    font-weight: 400
+    font-size: 88.89%
+    color: #333333
+  &__timeline
+    width: 100%
+    position: absolute
+    left: 0
+    right: 0
+    top: 60px
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+    padding-left: 232px
+    padding-right: 232px
+    z-index: 2
+  &__time
+    width: 53px
+    height: 27px
+    display: block
+    background-color: #ffffff
+    border-radius: 25px
+    -webkit-border-radius: 25px
+    box-shadow: 2px 4px 9px 1px rgba(0, 0, 0, 0.12)
+    color: #333333
+    font-size: 55.56%
+    line-height: 27px
+    text-align: center
+    font-weight: 500
+    font-family: "Inter", sans-serif
+    position: relative
+    &::after
+      content: ''
+      z-index: -1
+      width: 400%
+      height: 27px
+      display: block
+      background-image: url(../img/icons/curve-line-gray.svg)
+      background-repeat: no-repeat
+      -webkit-background-size: contain
+      background-size: contain
+      background-position: top center
+      position: absolute
+      left: 50%
+      margin-left: -209 / 2 + px
+      top: 100%
+
+.section-3
+  padding-top: 67px
+  padding-bottom: 216px
+  position: relative
+  &__fixed
+    position: absolute
+    bottom: -149px
+    left: 0
+    right: 0
+    z-index: 4
+  &__fixed.fixed
+    position: fixed
+    left: 0
+    right: 0
+    bottom: 0
+
+.s3-top
+  text-align: center
+  padding-bottom: 77px
+  &__title
+    display: block
+  &__description
+    padding-top: 31px
+    max-width: 606px
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+
+.s3-filter
+  padding-bottom: 20px
+  &__link
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: wrap
+    justify-content: flex-start
+    align-items: center
+    position: relative
+    height: 45px
+    background-color: #ffffff
+    border-radius: 10px
+    -webkit-border-radius: 10px
+    box-shadow: 5px 13px 21px rgba(0, 0, 0, 0.08)
+    padding: 0 18px 0 64px
+    color: #333333
+    @include transition(all 0s ease)
+    &:hover
+      box-shadow: 5px 13px 21px rgba(0, 0, 0, 0.21)
+    &-active
+      box-shadow: 5px 13px 21px rgba(0, 0, 0, 0.21)
+      border: 2px solid #F3E03B
+      font-weight: 700
+      padding: 0 16px 0 62px
+      .s3-filter__icon
+        -webkit-filter: grayscale(0)
+        -moz-filter: grayscale(0)
+        -ms-filter: grayscale(0)
+        -o-filter: grayscale(0)
+        filter: grayscale(0)
+        left: 16px
+    &-black
+      background-color: #424242
+      color: #ffffff
+  &__icon
+    height: auto
+    width: 34px
+    position: absolute
+    left: 18px
+    top: 0
+    bottom: 0
+    display: block
+    background-repeat: no-repeat
+    background-position: left center
+    -webkit-filter: grayscale(100%)
+    -moz-filter: grayscale(100%)
+    -ms-filter: grayscale(100%)
+    -o-filter: grayscale(100%)
+    filter: grayscale(100%)
+    filter: gray
+
+.s3-loading
+  padding-top: 10px
+
+.s3-service
+  -webkit-touch-callout: none
+  -webkit-user-select: none
+  -khtml-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+  &__item
+    background-color: #ffffff
+    border-radius: 6px
+    -webkit-border-radius: 6px
+    padding: 0 15px 0 16px
+    height: 71px
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: nowrap
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 5px
+    position: relative
+  //&::after
+    //  content: ''
+    //  display: block
+    //  width: 100%
+    //  height: 100%
+    //  top: 0
+    //  bottom: 0
+    //  right: 0
+    //  left: 0
+    //  z-index: 9
+    //  position: absolute
+    //  cursor: pointer
+    //&-active
+    //  &::after
+    //    display: none
+  &__check
+    display: none
+    &:checked + label
+      font-weight: 700
+      &::after
+        display: block
+  &__label
+    padding-left: 18 + 25 + px
+    position: relative
+    font-size: 88.89%
+    color: #333333
+    font-weight: 400
+    cursor: pointer
+    max-width: 60%
+    line-height: 100%
+    line-height: 119%
+    &::before
+      content: ''
+      display: block
+      border: 1px solid #D9D9D9
+      border-radius: 4px
+      width: 25px
+      height: 25px
+      position: absolute
+      left: 0
+      top: -4px
+    &::after
+      content: ''
+      display: none
+      width: 25px
+      height: 25px
+      position: absolute
+      left: 0
+      top: -4px
+      background-image: url(../img/icons/check-black.svg)
+      background-repeat: no-repeat
+      background-position: center center
+      -webkit-background-size: 21px auto
+      background-size: 21px auto
+  &__right
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: wrap
+    justify-content: flex-end
+    align-items: center
+  &__price
+    font-size: 100%
+    color: #808080
+    font-weight: 400
+    padding-right: 35px
+    b
+      font-weight: 700
+      color: #333333
+  &__count
+    width: 84px
+    height: 25px
+    border: 1px solid #D9D9D9
+    border-radius: 6px
+    -webkit-border-radius: 6px
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: nowrap
+    justify-content: space-between
+    align-items: center
+  &__math
+    width: 25px
+    min-width: 25px
+    max-width: 25px
+    text-align: center
+    display: block
+    text-decoration: none
+    color: #808080
+    font-size: 88.89%
+    height: 23px
+    line-height: 23px
+    font-weight: 700
+    &-minus
+    &-plus
+  &__input
+    border: none
+    height: 23px
+    width: 100%
+    background-color: transparent
+    text-align: center
+    display: block
+    padding: 0 5px
+    color: #333333
+    font-size: 88.89%
+    cursor: default
+    &::-webkit-outer-spin-button
+      -webkit-appearance: none
+      margin: 0
+    &::-webkit-inner-spin-button
+      -webkit-appearance: none
+      margin: 0
+
+.s3-calc
+  background-color: #ffffff
+  box-shadow: 5px 13px 21px rgba(0, 0, 0, 0.08)
+  border-radius: 6px
+  -webkit-border-radius: 6px
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  flex-wrap: wrap
+  justify-content: space-between
+  align-items: flex-start
+  padding-bottom: 28px
+  &__left
+    width: 50%
+    padding-left: 66px
+    padding-right: 66px
+  &__right
+    width: 50%
+    padding-top: 22px
+    padding-left: 66px
+    padding-right: 66px
+
+.s3-img
+  display: block
+  width: 100%
+  margin-top: -55px
+  &__photo
+    display: block
+    width: 100%
+    height: auto
+
+.s3-info
+  &__title
+    display: block
+    width: 100%
+    font-weight: 700
+    color: #333333
+    font-size: 111.11%
+  &__row
+    padding-top: 32px
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: flex-start
+    max-width: 344px
+    width: 100%
+  &__left
+    width: 50%
+    padding-right: 6px
+  &__right
+    width: 50%
+    padding-left: 6px
+  &__name
+    font-size: 88.89%
+    color: #808080
+    line-height: 100%
+    padding-bottom: 10px
+    display: block
+    width: 100%
+    text-align: center
+    font-weight: 400
+  &__input
+    border: 1px solid #D9D9D9
+    border-radius: 6px
+    -webkit-border-radius: 6px
+    background-color: #ffffff
+    height: 50px
+    line-height: 48px
+    text-align: center
+    padding: 0 5px
+    font-weight: 700
+    color: #333333
+    font-size: 100%
+    width: 100%
+    &-sum
+      color: #808080
+      font-weight: 400
+      b
+        color: #333333
+        font-weight: 700
+    &::-webkit-outer-spin-button
+      -webkit-appearance: none
+      margin: 0
+    &::-webkit-inner-spin-button
+      -webkit-appearance: none
+      margin: 0
+  &__list
+    padding-top: 22px
+    width: 100%
+  &__item
+    padding-bottom: 10px
+    display: block
+    width: 100%
+    &:last-child
+      padding-bottom: 0
+  &__link
+    font-size: 88.89%
+    color: #333333
+    font-weight: 400
+  &__bottom
+    padding-top: 23px
+  &__btn
+    display: inline-block
+    position: relative
+    padding-left: 76px
+    padding-right: 65px
+    height: 50px
+    line-height: 50px
+    color: #333333
+    font-weight: 700
+    font-size: 100%
+    border-radius: 10px
+    -webkit-border-radius: 10px
+    background-color: #F3E03B
+    backdrop-filter: blur(13px)
+
+  &__btnicon
+    display: block
+    width: 22px
+    height: 20px
+    background-repeat: no-repeat
+    -webkit-background-size: contain
+    background-size: contain
+    background-position: center center
+    left: 27px
+    top: 50%
+    margin-top: -10px
+    position: absolute
+
+.section-4
+  padding-top: 218px
+  padding-bottom: 100px
+  &-standart
+    padding-top: 100px
+
+.s4-img
+  padding: 21px 0 60px 29px
+  position: relative
+  z-index: 2
+  &::before
+    content: ''
+    width: 140px
+    height: 100%
+    position: absolute
+    left: 0
+    top: 0
+    bottom: 0
+    background-color: #F3E03B
+    z-index: -1
+  &__photo
+    width: 100%
+    height: auto
+    display: block
+    border-radius: 0px 0px 140px 0px
+  &-left
+  &-right
+    padding: 21px 29px 60px 0
+    &::before
+      display: none
+    .s4-img__photo
+      border-radius: 0px 0px 0px 140px
+
+.s4-info
+  padding-left: 70px
+  &__info
+    font-size: 100%
+    color: #808080
+    font-weight: 400
+    display: block
+  &__title
+    padding-top: 30px
+    display: block
+    font-size: 222.22%
+    color: #333333
+    font-weight: 700
+    line-height: 108%
+  &__list
+    display: block
+    padding-top: 30px
+  &__item
+    display: block
+    width: 100%
+    padding-left: 49px
+    position: relative
+    padding-bottom: 21px
+    font-size: 100%
+    font-weight: 500
+    color: #333333
+    &:last-child
+      padding-bottom: 0
+  &__icon
+    width: 24px
+    height: 24px
+    top: 0
+    bottom: 0
+    display: block
+    background-repeat: no-repeat
+    background-position: top center
+    position: absolute
+    left: 12px
+    @include transition(all 2s ease)
+  &__description
+    padding-top: 12px
+  &__bottom
+    padding-top: 60px
+  &__button
+    display: inline-block
+    box-shadow: 5px 13px 21px rgba(0, 0, 0, 0.21)
+    background-color: #F3E03B
+    border-radius: 10px
+    -webkit-border-radius: 10px
+    height: 55px
+    line-height: 55px
+    padding-left: 64px
+    padding-right: 44px
+    position: relative
+    color: #333333
+    font-size: 100%
+    font-weight: 700
+    &__icon
+      width: 19px
+      height: 19px
+      display: block
+      position: absolute
+      left: 22px
+      top: 50%
+      margin-top: -9.5px
+      -webkit-background-size: contain
+      background-size: contain
+      background-repeat: no-repeat
+      background-position: center center
+
+.section-5
+  padding-top: 60px
+  padding-bottom: 83px
+
+.s5-record
+  padding: 34px 55px 43px 40px
+  background-color: #ffffff
+  box-shadow: 5px 13px 21px rgba(0, 0, 0, 0.08)
+  border-radius: 10px
+  -webkit-border-radius: 10px
+
+.s5-callback
+  padding-top: 34px
+  padding-right: 80px
+  &__wrapper
+    padding-left: 17px
+    width: 100%
+  &__photo
+    display: block
+    width: 100%
+    height: auto
+  &__text
+    padding-top: 24px
+  &__info
+    font-size: 88.89%
+    color: #333333
+    font-weight: 400
+    display: block
+    padding-bottom: 15px
+  &__phone
+    font-weight: 700
+    display: inline-block
+    color: #333333
+    font-size: 222.22%
+    border-bottom: 2px solid #333
+    padding-bottom: 12px
+    &:hover
+      border-color: transparent
+
+.s5-form
+  max-width: 441px
+  &__title
+    display: block
+    font-size: 222.22%
+    color: #333333
+    font-weight: 700
+    line-height: 113%
+  &__description
+    display: block
+    padding-top: 17px
+    font-weight: 500
+    color: #333333
+    font-size: 88.89%
+    padding-bottom: 30px
+  &__input
+    display: block
+    width: 100%
+    height: 40px
+    border: none
+    border-bottom: 2px solid #808080
+    border-top: 2px solid transparent
+    font-size: 100%
+    color: #808080
+    font-weight: 300
+  &__bottom
+    padding-top: 45px
+    display: block
+    width: 100%
+  &__btn
+    height: 55px
+    line-height: 55px
+    background-color: #F3E03B
+    border-radius: 10px
+    -webkit-border-radius: 10px
+    padding: 0 27px
+    display: inline-block
+    color: #333333
+    font-weight: 700
+
+.section-6
+  padding-top: 122px
+  padding-bottom: 71px
+
+.s6-top
+  max-width: 583px
+  width: 100%
+  text-align: center
+  margin-left: auto
+  margin-right: auto
+  padding-bottom: 60px
+  &__title
+    display: block
+  &__description
+    padding-bottom: 30px
+    color: #808080
+
+.section-7
+  padding-top: 105px
+  padding-bottom: 127px
+  position: relative
+  overflow: hidden
+  &::before
+    content: ''
+    display: block
+    position: absolute
+    top: 100px
+    bottom: 100px
+    right: 0
+    height: auto
+    width: 38%
+    border-radius: 10px
+    -webkit-border-radius: 10px
+    background-color: #F3E03B
+    z-index: -1
+
+.s7-top
+  &__description
+    padding-bottom: 30px
+    color: #808080
+  &__title
+    display: block
+
+.s7-slider
+  padding-top: 105px
+  &__top
+    width: auto
+    margin-left: -14px
+    margin-right: -14px
+    .slick-list
+      overflow: visible
+    &__item
+    &__wrapper
+      width: 100%
+      display: block
+      padding-left: 14px
+      padding-right: 14px
+    &__img
+      width: 100%
+      display: block
+      padding-top: 139%
+      -webkit-background-size: cover
+      background-size: cover
+      background-position: center center
+  &__bottom
+    padding-top: 8px
+    width: auto
+    margin-left: -5px
+    margin-right: -5px
+    .slick-list
+      overflow: visible
+    &__wrapper
+      padding-left: 5px
+      padding-right: 5px
+      width: 100%
+    &__img
+      display: block
+      width: 100%
+      padding-top: 139%
+      background-repeat: no-repeat
+      -webkit-background-size: cover
+      background-size: cover
+      background-position: center center
+
+.section-8
+  padding-top: 60px
+  padding-bottom: 100px
+
+.s8-top
+  max-width: 692px
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  text-align: center
+  padding-bottom: 98px
+
+.s8-news
+  width: 100%
+  display: block
+  position: relative
+  &__link
+    display: block
+    text-decoration: none
+    margin-bottom: 38px
+    &:hover
+      box-shadow: 5px 13px 21px rgba(0, 0, 0, 0.08)
+      overflow: hidden
+      .s8-news__more
+        opacity: 1 !important
+  &__img
+    width: 100%
+    display: block
+    height: 185px
+    background-repeat: no-repeat
+    -webkit-background-size: cover
+    background-size: cover
+    background-position: center center
+  &__bottom
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: flex-start
+    padding: 10px 17px 19px
+    background-color: #fff
+    border-radius: 0 0 10px 10px
+  &__time
+    width: 50%
+    font-size: 66.67%
+    color: #808080
+    line-height: 14px
+    display: block
+    text-align: left
+    padding-left: 16px
+    position: relative
+    &::before
+      content: ''
+      display: block
+      width: 9px
+      height: 9px
+      position: absolute
+      left: 0
+      top: 50%
+      margin-top: -9 / 2 + px
+      -webkit-background-size: contain
+      background-size: contain
+      background-repeat: no-repeat
+      background-position: left center
+      background-image: url(../img/icons/calendar-grey.svg)
+  &__serv
+    width: 50%
+    font-size: 66.67%
+    color: #808080
+    line-height: 14px
+    display: block
+    text-align: right
+  &__title
+    width: 100%
+    padding-top: 28px
+    display: block
+    font-weight: 700
+    font-size: 100%
+    position: relative
+    padding-bottom: 4px
+    &::before
+      content: ''
+      height: 2px
+      width: 32px
+      display: block
+      background-color: #F3E03B
+      position: absolute
+      bottom: 0
+      left: 0
+  &__description
+    padding-top: 12px
+    display: block
+    width: 100%
+  &__more
+    display: block
+    width: 100%
+    text-align: right
+    padding-top: 25px
+    opacity: 0
+    @include transition(all 0.5s ease)
+    .s19-item__more
+      font-size: 66.67%
+      padding-right: 30px
+      &::after
+        width: 20px
+
+.section-9
+  padding-top: 100px
+  padding-bottom: 58px
+
+.s9-top
+  max-width: 692px
+  display: block
+  margin-left: auto
+  margin-right: auto
+  text-align: center
+  padding-bottom: 60px
+
+.s9-slider
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  flex-wrap: wrap
+  justify-content: center
+  align-items: center
+  .slick-list
+    order: 1
+  .slick-arrow
+    position: static
+    margin: 0
+    width: 30px
+    height: 30px
+    display: block
+    background-color: transparent
+    background-image: url(../img/icons/big-black-arrow.svg)
+    background-repeat: no-repeat
+    background-position: center center
+    -webkit-background-size: contain
+    background-size: contain
+  .slick-prev
+    order: 2
+  .slick-next
+    order: 4
+  .slick-dots
+    order: 3
+    width: auto
+    padding-left: 60px
+    padding-right: 60px
+  &__item
+    padding-left: 15px
+    padding-right: 15px
+    padding-bottom: 60px
+  &__wrapper
+    width: 100%
+    box-shadow: 5px 13px 21px rgba(0, 0, 0, 0.08)
+    background-color: #ffffff
+    border-radius: 10px
+    -webkit-border-radius: 10px
+    padding: 10px 14px
+  &__img
+    display: block
+    width: 100%
+    padding-top: 149%
+    -webkit-background-size: contain
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: center center
+    position: relative
+    @include transition(all 0.5s ease)
+    &::after
+      content: ''
+      display: block
+      position: absolute
+      left: 0
+      right: 0
+      margin-left: auto
+      margin-right: auto
+      top: 50%
+      margin-top: -25px
+      width: 50px
+      height: 50px
+      border-radius: 50%
+      -webkit-border-radius: 50%
+      background-image: url(../img/icons/ant-design_eye-filled.svg)
+      background-repeat: no-repeat
+      -webkit-background-size: 30px auto
+      background-size: 30px auto
+      background-position: center center
+      background-color: #ffffff
+      box-shadow: 5px 13px 21px rgba(0, 0, 0, 0.21)
+      opacity: 0
+      @include transition(all 0.5s ease)
+    &:hover
+      &::after
+        opacity: 1
+
+.section-10
+  padding-top: 100px
+  padding-bottom: 100px
+
+.s10-top
+  display: block
+  width: 100%
+  max-width: 583px
+  margin-left: auto
+  margin-right: auto
+  text-align: center
+  padding-bottom: 60px
+
+.s10-slider
+  width: auto
+  margin-left: -15px
+  margin-right: -15px
+  &__item
+    padding-left: 15px
+    padding-right: 15px
+  &__wrapper
+    cursor: pointer
+    &:hover
+      .s10-slider__img
+        box-shadow: 5px 13px 21px rgba(0, 0, 0, 0.08)
+  &__img
+    display: block
+    width: 100%
+    height: 170px
+    background-repeat: no-repeat
+    background-position: center center
+    background-color: #ffffff
+    border-radius: 10px
+    -webkit-border-radius: 10px
+    -webkit-background-size: auto auto
+    background-size: auto auto
+  &__title
+    display: block
+    padding-top: 18px
+    width: 100%
+    text-align: center
+    font-size: 100%
+    color: #000000
+    font-weight: 400
+
+.section-11
+  padding-top: 75px
+  padding-bottom: 63px
+
+.s11-top
+  width: 100%
+  display: block
+  max-width: 712px
+  text-align: center
+  margin-left: auto
+  margin-right: auto
+  padding-bottom: 62px
+
+.s11-marks
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  flex-wrap: wrap
+  justify-content: center
+  align-items: flex-start
+  &__item
+    width: 25%
+    padding-left: 12px
+    padding-right: 12px
+    padding-bottom: 24px
+  &__link
+    padding: 0 50px 0 70px
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: wrap
+    justify-content: flex-start
+    align-items: center
+    width: 100%
+    font-weight: 700
+    position: relative
+    border: 2px solid transparent
+    background-color: #ffffff
+    box-shadow: 5px 13px 21px rgba(0, 0, 0, 0.08)
+    border-radius: 10px
+    -webkit-border-radius: 10px
+    height: 56px
+    &:hover
+      border: 2px solid #F3E03B
+      box-shadow: 5px 13px 21px rgba(0, 0, 0, 0.21)
+      .s11-marks__line
+        display: block
+  &__icon
+    width: 38px
+    left: 16px
+    top: 0
+    bottom: 0
+    height: 100%
+    display: block
+    position: absolute
+    background-repeat: no-repeat
+    -webkit-background-size: contain
+    background-size: contain
+    background-position: center center
+  &__line
+    position: absolute
+    width: 33px
+    right: 27px
+    top: 0
+    bottom: 0
+    background-repeat: no-repeat
+    -webkit-background-size: contain
+    background-size: contain
+    background-position: center center
+    background-image: url(../img/icons/right-yelow-line.svg)
+    display: none
+
+.s11-bottom
+  width: 100%
+  text-align: center
+  padding-top: 35px
+  &__btn
+    display: inline-block
+    box-shadow: 5px 13px 21px rgba(0, 0, 0, 0.21)
+    background-color: #fff
+    border-radius: 10px
+    -webkit-border-radius: 10px
+    height: 55px
+    line-height: 55px
+    padding-left: 64px
+    padding-right: 44px
+    position: relative
+    color: #333333
+    font-size: 100%
+    font-weight: 700
+    &__icon
+      width: 19px
+      height: 19px
+      display: block
+      position: absolute
+      left: 22px
+      top: 50%
+      margin-top: -9.5px
+      -webkit-background-size: contain
+      background-size: contain
+      background-repeat: no-repeat
+      background-position: center center
+
+.section-12
+  padding-top: 77px
+  padding-bottom: 100px
+  &-hidden
+    position: relative
+    height: 487px
+    overflow: hidden
+    &::after
+      content: ''
+      position: absolute
+      left: 0
+      right: 0
+      bottom: 0
+      z-index: 1
+      width: 100%
+      height: 278px
+      display: block
+      background: linear-gradient(180deg, rgba(252, 252, 252, 0) 0%, #FCFCFC 33.85%)
+  &__more
+    position: absolute
+    bottom: 152px
+    left: 0
+    right: 0
+    z-index: 2
+
+.s12-top
+  padding-bottom: 29px
+  text-align: center
+  max-width: 692px
+  margin-left: auto
+  margin-right: auto
+  display: block
+
+.s12-bottom
+  display: block
+  width: 100%
+  text-align: right
+  &__more
+    display: inline-block
+    color: #808080
+    font-weight: 400
+    font-size: 66.67%
+    padding-right: 30px
+    position: relative
+    &__icon
+      width: 20px
+      height: 100%
+      top: 0
+      bottom: 0
+      right: 0
+      position: absolute
+      background-repeat: no-repeat
+      background-position: right center
+      -webkit-background-size: contain
+      background-size: contain
+      display: block
+    &:hover
+      text-decoration: underline
+
+.section-13
+  &__info
+    margin-top: -100px
+    position: relative
+    z-index: 2
+  &__map
+    margin-top: -162px
+    position: relative
+    z-index: 1
+
+.s13-info
+  background-color: #ffffff
+  box-shadow: -10px -1px 34px rgba(0, 0, 0, 0.08)
+  border-radius: 10px
+  -webkit-border-radius: 10px
+  padding: 39px 68px 36px 68px
+  max-width: 324px
+  &__title
+    display: block
+    font-size: 100%
+    font-weight: 700
+    color: #333333
+    padding-bottom: 31px
+  &__item
+    display: block
+    width: 100%
+    padding-bottom: 17px
+    max-width: 170px
+    text-align: right
+    line-height: 100%
+    color: #333333
+    white-space: nowrap
+  &__bottom
+    padding-top: 16px
+  &__phone
+    display: inline-block
+    font-size: 100%
+    font-weight: 700
+    color: #333333
+
+.s13-button
+  padding-bottom: 72px
+  text-align: right
+  width: 100%
+  &__btn
+    display: inline-block
+    padding: 0 49px 0 92px
+    position: relative
+    box-shadow: 5px 13px 21px rgba(0, 0, 0, 0.21)
+    border-radius: 6px
+    -webkit-border-radius: 6px
+    background-color: #ffffff
+    height: 62px
+    line-height: 62px
+    font-size: 100%
+    color: #333333
+    font-weight: 700
+    &__icon
+      display: block
+      width: 42px
+      height: 42px
+      background-repeat: no-repeat
+      -webkit-background-size: contain
+      background-size: contain
+      background-position: center center
+      position: absolute
+      left: 25px
+      top: 50%
+      margin-top: -21px
+
+.section-14
+  padding-top: 42px
+  padding-bottom: 28px
+
+.s14-breadcrumbs
+  font-size: 0
+  &__item
+    display: inline-block
+    position: relative
+    padding-left: 30px
+    &::before
+      content: ''
+      width: 30px
+      height: 17px
+      display: block
+      position: absolute
+      left: 0
+      top: 0
+      background-image: url(../img/icons/char-breadcrumbs.svg)
+      background-repeat: no-repeat
+      background-position: center center
+      -webkit-background-size: contain
+      background-size: contain
+    &:first-child
+
+      &::before
+        display: none
+  &__link
+    font-size: 13px
+    line-height: 16px
+    font-weight: 400
+    color: #808080
+    display: block
+    &__icon
+      display: block
+      width: 16px
+      height: 16px
+      left: 0
+      top: 0
+      position: absolute
+      -webkit-background-size: contain
+      background-size: contain
+      background-position: left center
+    &-active
+      color: #333333
+      font-weight: 700
+      &:hover
+        text-decoration: none !important
+    &:hover
+      color: #333333
+      text-decoration: underline
+
+.section-15
+  padding-bottom: 82px
+
+.s15-top
+  display: block
+  width: 100%
+  text-align: center
+  &__title
+    display: inline-block
+    padding-left: 17 + 74 + px
+    position: relative
+    &::before
+      content: ''
+      width: 74px
+      height: 74px
+      border-radius: 50%
+      -webkit-border-radius: 50%
+      background-color: #F3E03B
+      display: block
+      position: absolute
+      left: 0
+      top: -13px
+      background-image: url(../img/icons/tools-title.svg)
+      background-repeat: no-repeat
+      background-position: center center
+      -webkit-background-size: 35px auto
+      background-size: 35px auto
+
+.s15-order
+  padding-top: 45px
+  &__title
+    font-size: 111.11%
+    font-weight: 700
+    display: block
+    width: 100%
+    color: #333333
+  &__table
+    padding-top: 25px
+    padding-bottom: 47px
+    display: table
+    width: 100%
+  &__row
+    display: table-row
+    &-top
+
+  &__cell
+    display: table-cell
+    vertical-align: middle
+    padding-bottom: 12px
+    &:nth-child(1)
+      width: 50px
+      .s15-order__name
+        width: 50px
+    &:nth-child(2)
+      padding-left: 12px
+      .s15-order__name
+        text-align: left
+        padding-left: 27px
+    &:nth-child(3)
+      padding-left: 14px
+      padding-right: 14px
+      width: 194px
+    &:nth-child(4)
+      width: 165px
+    &:nth-child(5)
+      padding-left: 20px
+    &-info
+      width: 50% !important
+    &-price
+      width: 194px
+      padding-left: 14px
+      padding-right: 14px
+  &__name
+    color: #808080
+    font-size: 88.89%
+    display: block
+    width: 100%
+    text-align: center
+    padding-bottom: 6px
+  &__number
+    width: 50px
+    height: 50px
+    display: block
+    text-align: center
+    background-color: #ffffff
+    color: #333333
+    font-size: 100%
+    line-height: 48px
+    font-weight: 400
+    border: 1px solid #D9D9D9
+    border-radius: 6px
+    -webkit-border-radius: 6px
+  &__serv
+    display: block
+    border: 1px solid #D9D9D9
+    background-color: #ffffff
+    height: 50px
+    line-height: 110%
+    color: #333333
+    font-size: 100%
+    padding: 0 26px
+    border-radius: 6px
+    -webkit-border-radius: 6px
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: wrap
+    justify-content: flex-start
+    align-items: center
+  &__count
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    .s3-service__math
+      width: 25px
+      height: 25px
+      background-color: #ffffff
+      line-height: 23px
+      display: block
+      text-align: center
+      font-size: 88.89%
+      color: #808080
+      font-weight: 700
+      border: 1px solid #D9D9D9
+      border-radius: 6px
+      -webkit-border-radius: 6px
+
+      &-minus
+        margin-right: 14px
+      &-plus
+        margin-left: 14px
+    .s3-service__input
+        width: 88px
+        height: 50px
+        display: block
+        background-color: #ffffff
+        color: #333333
+        font-size: 88.89%
+        line-height: 48px
+        font-weight: 400
+        text-align: center
+        border: 1px solid #D9D9D9
+        border-radius: 6px
+        -webkit-border-radius: 6px
+  &__price
+    height: 50px
+    border: 1px solid #D9D9D9
+    line-height: 48px
+    text-align: center
+    border-radius: 6px
+    -webkit-border-radius: 6px
+    display: block
+    background-color: #ffffff
+    color: #808080
+    font-weight: 400
+    width: 100%
+    b
+      font-weight: 700
+      color: #333333
+  &__close
+    width: 30px
+    height: 30px
+    display: block
+    background-color: #ffffff
+    border-radius: 50%
+    -webkit-border-radius: 50%
+    background-repeat: no-repeat
+    background-position: center center
+    -webkit-background-size: 9px auto
+    background-size: 9px auto
+    &:hover
+      opacity: .7
+  &__sum
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+    padding-right: 92px
+    padding-bottom: 71px
+    width: 100%
+    padding-top: 86 - 12 + px
+  &__info
+    max-width: 450px
+    b
+      display: block
+      color: #333333
+      font-weight: 700
+      font-size: 111.11%
+    p
+      display: block
+      padding-left: 15px
+      color: #808080
+      line-height: 103.5%
+      font-weight: 400
+      font-size: 77.78%
+      padding-top: 11px
+  &__inputs
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: nowrap
+    justify-content: space-between
+    align-items: center
+    .s15-order__price
+      width: 166px
+      position: relative
+      margin-left: 14px
+    .s15-order__name
+      position: absolute
+      left: 0
+      right: 0
+      top: -40px
+  &__bottom
+    padding-top: 71px
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+    padding-right: 92px
+  &__phone
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: nowrap
+    align-items: center
+    &__text
+      font-weight: 700
+      padding-right: 36px
+      display: block
+      font-size: 111.11%
+    &__input
+      display: block
+      width: 100%
+      max-width: 319px
+      min-width: 319px
+      padding: 0 23px
+      border: 1px solid #D9D9D9
+      height: 50px
+      border-radius: 6px
+      font-size: 88.89%
+      color: #808080
+      &::placeholder
+        opacity: 1
+        color: #808080
+  &__button
+    border-radius: 10px
+    height: 50px
+    line-height: 50px
+    background-color: #F3E03B
+    padding: 0 70px 0 77px
+    display: inline-block
+    color: #333333
+    font-weight: 700
+    font-size: 88.89%
+    position: relative
+    &__icon
+      width: 18px
+      height: 18px
+      display: block
+      background-image: url(../img/icons/bi-tools-black.svg)
+      background-repeat: no-repeat
+      background-position: center center
+      -webkit-background-size: contain
+      background-size: contain
+      position: absolute
+      left: 27px
+      top: 50%
+      margin-top: -9px
+
+.section-16
+  padding-top: 0
+  .s15-top
+    padding-bottom: 45px
+
+.s16-white
+  padding: 50px 39px
+  position: relative
+  z-index: 1
+  background-color: #ffffff
+  .s3-filter__link
+    padding: 0 5px 0 54px
+    font-size: 100%
+  .s3-service__price
+    padding-right: 0
+
+.section-17
+  padding-top: 245px
+  padding-bottom: 100px
+
+.s17-left
+  &__info
+    display: block
+    width: 100%
+    padding-bottom: 30px
+    font-size: 100%
+    line-height: 120%
+    color: #808080
+    font-weight: 400
+  &__title
+    line-height: 115%
+  &__description
+    display: block
+    width: 100%
+    padding-top: 30px
+    max-width: 477px
+
+.s17-right
+  &__img
+    padding-right: 28px
+    position: relative
+    z-index: 1
+    &__photo
+      display: block
+      width: 100%
+      height: auto
+      border-radius: 0px 0px 0px 140px
+      -webkit-border-radius: 0px 0px 0px 140px
+    &::before
+      content: ''
+      display: block
+      width: 117px
+      top: -25px
+      right: 0
+      bottom: 40px
+      height: auto
+      background-color: #F3E03B
+      z-index: -1
+      position: absolute
+  &__list
+    display: block
+    padding-top: 30px
+  &__item
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: wrap
+    justify-content: flex-start
+    align-items: center
+    padding-left: 97px
+    position: relative
+    min-height: 50%
+    margin-bottom: 30px
+    font-size: 100%
+    color: #333333
+    font-weight: 400
+    &:last-child
+      margin-bottom: 0
+  &__char
+    width: 50px
+    height: 50px
+    display: block
+    border-radius: 50%
+    -webkit-border-radius: 50%
+    background-color: #424242
+    line-height: 50px
+    color: #ffffff
+    text-align: center
+    font-weight: 500
+    font-size: 100%
+    text-transform: uppercase
+    position: absolute
+    left: 0
+    top: 50%
+    margin-top: -25px
+
+.section-18
+  padding-top: 71px
+  padding-bottom: 68px
+
+.s18-top
+  max-width: 712px
+  margin-left: auto
+  margin-right: auto
+  display: block
+  text-align: center
+  padding-bottom: 60px
+
+.s18-left
+  &__img
+    display: block
+    width: 100%
+    max-width: 566px
+    margin-left: 0
+    &__photo
+      display: block
+      width: 100%
+      height: auto
+
+.s18-right
+  &__description
+    ul
+      padding-left: 56 - 24 + px
+      display: block
+      width: 100%
+      li
+        padding-bottom: 30px
+        display: block
+        width: 100%
+        padding-left: 56px
+        position: relative
+        &:last-child
+          padding-bottom: 0
+        &::before
+          content: ''
+          border-radius: 0
+          -webkit-border-radius: 0
+          width: 24px
+          height: 7px
+          background-color: #F3E03B
+          position: absolute
+          left: 0
+          top: 9px
+
+.section-19
+  padding-top: 93px
+  padding-bottom: 100px
+
+.s19-top
+  padding-bottom: 60px
+  text-align: center
+  max-width: 779px
+  margin-left: auto
+  margin-right: auto
+  display: block
+
+.s19-item
+  &__top
+    padding-top: 25px
+    padding-bottom: 8px
+    display: block
+    width: 100%
+    padding-left: 28px
+    position: relative
+    z-index: 1
+    &::before
+      content: ''
+      display: block
+      width: 55px
+      height: 55px
+      background-color: #F3E03B
+      border-radius: 50%
+      -webkit-border-radius: 50%
+      position: absolute
+      left: 0
+      bottom: 0
+      z-index: -1
+    &::after
+      content: ''
+      background-image: url(../img/icons/line-1.svg)
+      display: block
+      position: absolute
+      left: 0
+      right: 0
+      top: 0
+      bottom: 0
+      background-position: right top
+      -webkit-background-size: auto 26px
+      background-size: auto 26px
+      background-repeat: no-repeat
+      z-index: -1
+  &__distance
+    display: block
+    width: 100%
+    font-weight: 700
+    color: #333333
+    font-size: 100%
+    line-height: 22px
+  &__description
+    padding-top: 19px
+    color: #333333
+    max-width: 349px
+    width: 100%
+    min-height: 172px
+    font-weight: 400
+  &__bottom
+    padding-top: 26px
+    text-align: left
+  &__more
+    display: inline-block
+    padding-right: 64 + 19 + px
+    position: relative
+    font-size: 100%
+    color: #808080
+    font-weight: 400
+    &::after
+      content: ''
+      width: 64px
+      height: auto
+      right: 0
+      top: 0
+      bottom: 0
+      background-image: url(../img/icons/line-2.svg)
+      background-repeat: no-repeat
+      background-position: right center
+      -webkit-background-size: contain
+      background-size: contain
+      position: absolute
+
+.section-20
+  padding-top: 63 - 28 + px
+  padding-bottom: 83px
+
+.s20-left
+  max-width: 477px
+  margin-left: 0
+  &__title
+  &__description
+    padding-top: 29px
+  &__bottom
+    padding-top: 19px
+    text-align: left
+    .s19-item__more
+
+.s20-right
+  max-width: 598px
+  margin-left: auto
+  width: 100%
+  &__img
+  &__photo
+    display: block
+    width: 100%
+    height: auto
+    border-radius: 0px 0px 0px 140px
+    -webkit-border-radius: 0px 0px 0px 140px
+    box-shadow: -4px 13px 21px rgba(0, 0, 0, 0.08)
+
+.section-21
+  padding-top: 78px
+  padding-bottom: 94 - 38 + px
+  border-bottom: 1px solid #D9D9D9
+  position: relative
+  &__bottom
+    position: absolute
+    left: 0
+    right: 0
+    bottom: -25px
+    z-index: 1
+    text-align: center
+
+.s21-title
+  padding-bottom: 30px
+
+.s21-btn
+  display: inline-block
+  height: 50px
+  line-height: 44px
+  border-top: 3px solid transparent
+  border-bottom: 3px solid transparent
+  white-space: nowrap
+  padding-left: 35px
+  padding-right: 35px
+  background-color: #ffffff
+  color: #808080
+  font-weight: 700
+  font-size: 100%
+  &:hover
+    border-top: 3px solid #F3E03B
+    border-bottom: 3px solid #F3E03B
+    color: #333333
+
+.section-22
+  height: 100px
+  width: 100%
+
+.section-23
+  padding-top: 61 - 28 + px
+  padding-bottom: 50px
+
+.s23-left
+  width: 100%
+  max-width: 598px
+  &__img
+    display: block
+    width: 100%
+  &__photo
+    display: block
+    width: 100%
+    height: auto
+
+.s23-right
+  &__top
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: wrap
+    align-items: center
+    justify-content: space-between
+    padding-bottom: 23px
+  &__data
+    position: relative
+    padding-left: 21px
+    font-weight: 400
+    color: #808080
+    font-size: 88.89%
+    &::before
+      content: ''
+      background-image: url(../img/icons/calendar-grey.svg)
+      width: 12px
+      height: 12px
+      display: block
+      background-repeat: no-repeat
+      background-position: left center
+      -webkit-background-size: contain
+      background-size: contain
+      position: absolute
+      left: 0
+      top: 50%
+      margin-top: -6px
+  &__soc
+    font-size: 0
+    &__item
+      display: inline-block
+      padding-left: 10px
+      &:first-child
+        padding-left: 0
+    &__link
+      display: block
+      width: 24px
+      height: 24px
+      -webkit-background-size: contain
+      background-size: contain
+      background-position: center center
+      background-repeat: no-repeat
+  &__title
+    width: 100%
+    max-width: 475px
+  &__description
+    padding-top: 12px
+
+.section-24
+  padding-top: 50px
+
+.s24-description
+
+.section-25
+  padding-bottom: 50px
+
+.s25-description
+
+.section-26
+  padding-top: 50px
+  padding-bottom: 50px
+
+.s26-description
+
+.s26-item
+  padding-top: 24px
+  padding-bottom: 30px
+  &__top
+    color: #333333
+    font-weight: 700
+    font-size: 266.67%
+    position: relative
+    z-index: 1
+    &::before
+      content: ''
+      width: 55px
+      height: 55px
+      background-color: #F3E03B
+      display: block
+      border-radius: 50%
+      -webkit-border-radius: 50%
+      position: absolute
+      left: 10px
+      bottom: -4px
+      z-index: -1
+  &__content
+
+.section-27
+  padding-top: 50px
+  padding-bottom: 50px
+
+.section-28
+  padding-top: 50px
+  padding-bottom: 100px
+
+.s28-link
+  position: relative
+  max-width: 408px
+  padding-top: 4px
+  display: block
+  &:hover
+    .s28-link__title
+      text-decoration: underline
+
+  &-left
+    padding-left: 23 + 90 + px
+    text-align: left
+    margin-right: auto
+    .s28-link__photo
+      left: 0
+  &-right
+    padding-right: 23 + 90 + px
+    text-align: right
+    margin-left: auto
+    .s28-link__photo
+      right: 0
+  &__photo
+    position: absolute
+    top: 0
+    height: 90px
+    width: 90px
+    -webkit-background-size: cover
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center center
+  &__name
+    color: #808080
+    font-size: 100%
+    display: block
+  &__title
+    padding-top: 21px
+    display: block
+    font-weight: 700
+    color: #333333
+    font-size: 111.11%
+
+.section-29
+  padding-bottom: 50px
+
+.s29-top
+  padding-bottom: 40px
+  &__title
+
+.s29-reviews
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  flex-wrap: wrap
+  align-items: flex-start
+  justify-content: center
+  width: 100%
+  padding: 0 6%
+  &__item
+    width: 33.333%
+    padding-left: 50px
+    padding-right: 50px
+  &__wrapper
+  &__circle
+    width: 232px
+    height: 232px
+    border-radius: 50%
+    -webkit-border-radius: 50%
+    border: 15px solid #D9D9D9
+    background-color: #ffffff
+    position: relative
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: wrap
+    align-items: center
+    justify-content: center
+    &__progres
+      position: absolute
+      display: block
+      width: 232px
+      height: 232px
+      top: -15px
+      bottom: -15px
+      left: -15px
+      right: -15px
+      margin-left: auto
+      margin-right: auto
+      &-50
+        height: 116px
+        bottom: auto
+        overflow: hidden
+      &-rot
+        transform: rotate(30deg)
+        -webkit-transform: rotate(30deg)
+        position: absolute
+        left: 0
+        right: 0
+        top: 0
+        bottom: 0
+        z-index: 1
+
+    &__bar
+      width: 232px
+      height: 232px
+      border-radius: 50%
+      -webkit-border-radius: 50%
+      background-color: transparent
+      border: 15px solid #F3E03B
+
+    &__info
+      display: block
+      text-align: center
+      padding-left: 15px
+      padding-right: 15px
+      width: 100%
+    &__count
+      font-size: 222.22%
+      display: block
+      color: #333333
+      font-weight: 700
+      line-height: 100%
+      span
+        font-size: 50%
+        font-weight: 400
+        line-height: 100%
+    &__description
+      display: block
+      padding-top: 8px
+      line-height: 110%
+
+.section-30
+  padding-top: 53px
+  padding-bottom: 90px
+
+.s30-top
+  text-align: center
+  padding-bottom: 82px
+  max-width: 611px
+  margin-left: auto
+  margin-right: auto
+
+.s30-bottom
+  display: block
+  width: 100%
+  text-align: center
+  padding-top: 130px
+  &__btn
+    display: inline-block
+    height: 50px
+    line-height: 50px
+    padding: 0 68px
+    border-radius: 10px
+    -webkit-border-radius: 10px
+    background-color: #F3E03B
+    color: #333333
+    font-weight: 700
+    
+.section-31
+  padding-top: 20px
+  padding-bottom: 98 - 75 + px
+  &__map
+    width: 100%
+    display: block
+    padding-top: 38px
+    padding-bottom: 75px
+    position: relative
+    z-index: 1
+    img
+      display: block
+      width: 100%
+      height: auto
+    &__pattern
+      display: block
+      position: absolute
+      z-index: -1
+      top: -80px
+      bottom: -243px
+      height: auto
+      right: 0
+      width: 200px
+      border-radius: 0
+      -webkit-border-radius: 0
+      background-color: #F3E03B
+
+.s31-top
+  text-align: left
+
+.s31-way
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  flex-wrap: wrap
+  align-items: center
+  justify-content: space-between
+  padding-top: 30px
+  width: 100%
+  &__text
+    color: #333333
+    font-weight: 400
+    font-size: 166.66%
+    text-align: left
+  &__btn
+    padding-right: 32px
+
+.s31-map
+  width: 100%
+  display: block
+  img
+    width: 100%
+    height: auto
+    display: block
+
+.section-32
+  padding-top: 100px
+  padding-bottom: 40px
+
+.s32-title
+  color: #333333
+  font-weight: 400
+  font-size: 166.66%
+  display: block
+  text-align: left
+
+.s32-video
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  flex-wrap: wrap
+  align-items: flex-start
+  justify-content: space-between
+  padding: 45px 141 - 94 - 13 + px 0
+  &__item
+    width: 33.333%
+    padding: 0 13px
+    cursor: pointer
+  &__wrapper
+  &__title
+    display: block
+    width: 100%
+    padding-bottom: 19px
+    font-size: 100%
+    font-weight: 700
+    color: #333333
+  &__bottom
+    display: block
+    width: 100%
+    position: relative
+    padding-top: 60%
+    -webkit-background-size: cover
+    background-size: cover
+    background-position: center center
+    background-repeat: no-repeat
+  &__play
+    width: 73px
+    height: 73px
+    display: block
+    -webkit-background-size: contain
+    background-size: contain
+    background-position: center center
+    background-repeat: no-repeat
+    position: absolute
+    left: 0
+    right: 0
+    margin-left: auto
+    margin-right: auto
+    top: 50%
+    margin-top: -73 / 2 + px
+    z-index: 1
+    cursor: pointer
+
+.section-33
+  padding-top: 100px
+  padding-bottom: 50px
+
+.s33-top
+  padding-bottom: 45px
+  text-align: center
+
+.s31-soc
+  &__title
+  &__info
+    display: block
+    padding-top: 29px
+  &__list
+    font-size: 0
+    display: block
+    padding-top: 26px
+    width: 100%
+  &__item
+    display: inline-block
+    padding-left: 40px
+    &:first-child
+      padding-left: 0
+  &__link
+    display: block
+    width: 50px
+    height: 50px
+    background-repeat: no-repeat
+    background-position: center center
+
+.s31-form
+  form
+  &__row
+    padding-bottom: 25px
+  &__name
+    line-height: 19px
+    display: block
+    padding-bottom: 10px
+    padding-left: 26px
+    font-size: 88.89%
+    font-weight: 700
+    color: #333333
+  &__input
+    height: 50px
+    display: block
+    width: 100%
+    background-color: #ffffff
+    border-radius: 5px
+    -webkit-border-radius: 5px
+    border: 1px solid #D9D9D9
+    padding: 0 25px
+    color: #333333
+    font-weight: 300
+    font-size: 88.89%
+    outline: none
+    &::placeholder
+      opacity: 1
+      color: #808080
+  &__textarea
+    outline: none
+    display: block
+    width: 100%
+    resize: none
+    height: 154px
+    background-color: #ffffff
+    padding: 14px 25px
+    border-radius: 5px
+    -webkit-border-radius: 5px
+    border: 1px solid #D9D9D9
+    color: #333333
+    font-weight: 300
+    font-size: 88.89%
+    &::placeholder
+      opacity: 1
+      color: #808080
+  &__btn
+    margin-top: 29px
+    padding: 0 65px
+    display: inline-block
+    height: 50px
+    line-height: 50px
+    border-radius: 10px
+    -webkit-border-radius: 10px
+    border: none
+    background-color: #f3e03b
+    font-weight: 700
+    color: #333333
+    font-size: 88.89%
+
+.s31-info
+  padding-top: 85px
+  &__wrapper
+  &__title
+    width: 100%
+    padding-top: 28px
+    display: block
+    font-weight: 700
+    font-size: 100%
+    position: relative
+    padding-bottom: 8px
+    &::before
+      content: ""
+      height: 2px
+      max-width: 203px
+      width: 100%
+      display: block
+      background-color: #F3E03B
+      position: absolute
+      bottom: 0
+      left: 0
+  &__description
+    padding-top: 7px
+    display: block
+    width: 100%
+
+.section-32
+  padding-top: 104px
+  padding-bottom: 50px
+  -webkit-background-size: cover
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: right center
+
+.s32-info
+  display: block
+  &__info
+    font-size: 100%
+    font-weight: 500
+    color: #D9D9D9db
+    width: 100%
+    padding-bottom: 43px
+  &__title
+    display: block
+    font-size: 277.78%
+    color: #ffffff
+    line-height: 100%
+  &__description
+    padding-top: 12px
+    display: block
+    font-weight: 500
+    color: #ffffff
+    padding-bottom: 62px
+    max-width: 418px
+    width: 100%
+  &__btn
+    display: inline-block
+    padding: 0 41px
+    height: 55px
+    line-height: 55px
+    background-color: #F3E03B
+    border-radius: 10px
+    -webkit-border-radius: 10px
+    color: #333333
+    font-size: 100%
+    font-weight: 700
+
+.s32-social
+  display: block
+  width: 100%
+  text-align: right
+  font-size: 0
+  &__item
+    display: inline-block
+    padding-left: 25px
+    &:first-child
+      padding-left: 0
+  &__link
+    width: 30px
+    height: 25px
+    display: block
+    background-repeat: no-repeat
+    background-position: center center
+    -webkit-background-size: contain
+    background-size: contain
+
+.section-33
+  padding-top: 20px
+  padding-bottom: 80px
+
+.s33-top
+  text-align: center
+  max-width: 606px
+  margin-left: auto
+  margin-right: auto
+  padding-bottom: 100px
+  p
+    color: #333333
+
+.col-lg-4
+  &__left
+    .s33-parts__icon
+      margin-left: 24px
+    .s33-parts__title
+      order: -1
+    .s33-parts__list
+      padding-right: 84px
+  &__right
+    .s33-parts__icon
+      order: -1
+      margin-right: 24px
+    .s33-parts__list
+      padding-left: 84px
+
+.s33-parts
+  padding-bottom: 60px
+  &:last-child
+    padding-bottom: 0
+  &__top
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: nowrap
+    align-items: center
+    justify-content: flex-start
+    width: 100%
+  &__title
+    font-weight: 900
+    color: #333333
+    font-size: 166.67%
+    line-height: 100%
+    display: block
+    width: 100%
+  &__icon
+    min-width: 60px
+    max-width: 60px
+    width: 60px
+    height: 60px
+    display: block
+    -webkit-background-size: contain
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: center center
+  &__list
+    padding-top: 13px
+  &__item
+    padding-top: 10px
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    flex-wrap: nowrap
+    align-items: center
+    justify-content: space-between
+    width: 100%
+    color: #333333
+    font-weight: 400
+    font-size: 100%
+  &__count
+
+
+.s33-sheme
+  padding-bottom: 50px
+  &__item
+    width: 100%
+    padding-top: 134px
+    text-align: center
+    &:first-child
+      padding-top: 0
+  &__img
+    display: inline-block
+    width: auto
+    max-width: 100%
+    height: auto
+    max-height: 492px
+
+.section-34
+  padding: 70px 0
+
+.s34-callback
+  border-radius: 10px
+  -webkit-border-radius: 10px
+  box-shadow: 5px 13px 21px rgba(0, 0, 0, 0.08)
+  -webkit-background-size: 105% auto
+  background-size: 105% auto
+  background-repeat: no-repeat
+  background-position: center -8px
+  background-color: #F3E03B
+  padding: 90px 62px 44px 108px
+  width: 100%
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  flex-wrap: wrap
+  align-items: center
+  justify-content: space-between
+  overflow: hidden
+  &__left
+    width: 50%
+  &__right
+    width: 50%
+    text-align: right
+
+  &__title
+    display: block
+    padding-bottom: 20px
+  &__input
+    height: 55px
+    border: none
+    border-top: 2px solid transparent
+    border-bottom: 2px solid #808080
+    padding: 0
+    background-color: transparent
+    font-weight: 300
+    font-size: 100%
+    display: block
+    width: 100%
+    max-width: 433px
+    &::placeholder
+      opacity: 1
+      color: #808080
+  &__btn
+    margin-top: 41px
+    height: 55px
+    line-height: 55px
+    background-color: #F3E03B
+    border-radius: 10px
+    display: inline-block
+    padding: 0 41px
+    font-weight: 700
+    color: #333333
+    font-size: 100%
+    border: none
+    cursor: pointer
+
+  &__animation
+    display: block
+    margin-left: auto
+    width: 34px
+    height: 34px
+    background-repeat: no-repeat
+    background-position: center center
+    -webkit-background-size: contain
+    background-size: contain
+  &__more
+    padding-top: 24px
+    color: #333333
+    font-size: 88.89%
+    display: block
+    padding-bottom: 20px
+  &__phone
+    font-size: 194.44%
+    color: #333333
+    font-weight: 700
+    display: inline-block
+    border-bottom: 2px solid #333
+    padding-bottom: 10px
+    &:hover
+      border-color: transparent
+
+  &__social
+    display: block
+    width: 100%
+    text-align: right
+    font-size: 0
+    padding-top: 44px
+    &__item
+      display: inline-block
+      padding-left: 25px
+      &:first-child
+        padding-left: 0
+    &__link
+      width: 30px
+      height: 25px
+      display: block
+      background-repeat: no-repeat
+      background-position: center center
+      -webkit-background-size: contain
+      background-size: contain
+
+.section-35
+  padding-top: 74 - 28 + px
+  padding-bottom: 116px
+  -webkit-background-size: 100% auto
+  background-size: 100% auto
+  background-position: center -13px
+  background-repeat: no-repeat
+  overflow: hidden
+
+.s35-info
+  &__title
+    width: 100%
+    text-align: center
+    margin-left: auto
+    margin-right: auto
+    padding-bottom: 50px
+  &__warning
+    display: block
+    text-align: center
+    max-width: 512px
+    margin-left: auto
+    margin-right: auto
+    color: #808080
+
+
+
+
+

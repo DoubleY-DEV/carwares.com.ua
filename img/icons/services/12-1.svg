@@ -1,0 +1,13 @@
+<svg width="31" height="22" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M26.9997 5C27.0027 9.66667 26.9997 12 24.2509 12C21.502 12 17.3831 12 17.3831 12L5 12" stroke="#F3E03B"/>
+<line x1="4.71094" y1="3.15771" x2="4.71094" y2="17.8946" stroke="#F3E03B"/>
+<line x1="14.7109" y1="3.15771" x2="14.7109" y2="17.8946" stroke="#F3E03B"/>
+<path d="M25.9997 4C26.0027 8.66667 25.9997 11 23.2509 11C20.502 11 16.3831 11 16.3831 11L4 11" stroke="#333333"/>
+<line x1="3.73633" y1="3.79834" x2="3.73633" y2="18.3508" stroke="#333333"/>
+<line x1="14.002" y1="3.79834" x2="14.002" y2="18.3508" stroke="#333333"/>
+<line x1="7.08594" y1="21" x2="1.00122" y2="21" stroke="#333333" stroke-width="2" stroke-linecap="round"/>
+<line x1="17.3535" y1="21" x2="11.2688" y2="21" stroke="#333333" stroke-width="2" stroke-linecap="round"/>
+<line x1="7.08398" y1="1" x2="0.999269" y2="1" stroke="#333333" stroke-width="2" stroke-linecap="round"/>
+<line x1="17.3535" y1="1" x2="11.2688" y2="1" stroke="#333333" stroke-width="2" stroke-linecap="round"/>
+<line x1="29.5215" y1="1" x2="23.4368" y2="1" stroke="#333333" stroke-width="2" stroke-linecap="round"/>
+</svg>
